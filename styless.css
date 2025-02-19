@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+section {
+    flex: 1;
+    padding: 20px;
+    text-align: right;
+}
+
+.adr {
+ 
+}
+.mdp{
+    position: absolute;
+
+  
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%; /* Adjust the width as needed */
+    max-width: 400px;
+    margin-left: auto; /* Change to margin-left for right alignment */
+}
+form label {
+    text-align: right; /* Align the labels to the right */
+}
+form input {
+    margin: 5px 0;
+    padding: 8px 10px; /* Adjust padding for slightly larger inputs */
+    outline: 0;
+    border: 1px solid #000;
+    border-radius: 6px;
+}
+form input[type='submit'] {
+    background-color: #17f;
+    border: 0;
+    color: #fff;
+    margin-top: 15px;
+    padding: 8px 0; /* Adjust padding for slightly larger button */
+    cursor: pointer;
+}
+.image-container {
+    flex: 1;
+    text-align: left; /* Align the image to the left */
+    padding-left: 20px; /* Add some padding for separation */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.Erreur {
+    color: red;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.message {
+    color: #fff;
+    font-size: 25px;
+}
+
+
